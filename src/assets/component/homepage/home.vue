@@ -1,0 +1,384 @@
+<template>
+  <div class="homepage">
+    <div class="landing-page">
+      <app-header></app-header>
+      <div class="landing-page-content">
+        <p>
+          Send Money
+          <span :style="{ color: '#FFB4C4' }">Seamlessly.</span>
+        </p>
+        <p>
+          Pay Bills
+          <span :style="{ color: '#FBD334' }">Tirelessly.</span>
+        </p>
+        <p>
+          Flex Life
+          <span :style="{ color: '#0098FF' }">Limitlessly.</span>
+        </p>
+        <form>
+          <input placeholder="Email Address" class="know-better-input" />
+          <button class="know-better-submit">Know Better</button>
+        </form>
+      </div>
+    </div>
+    <div class="about-con">
+      <div class="more-info-con">
+        <img src="../../img/about-illustration.svg" />
+        <div class="more-info-details">
+          <h1>
+            The payment platform
+            <br />that fit you and satisfy
+            <br />your needs.
+          </h1>
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            <br />eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim
+            <br />ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut
+            <br />aliquip ex ea commodo consequat. Duis aute
+            irure dolor in
+            <br />reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla
+            <br />pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in
+            <br />culpa qui officia deserunt
+            mollit anim id est laborum."
+          </p>
+        </div>
+      </div>
+      <div class="features-con">
+        <h1 class="features-con-heading">Features</h1>
+        <div class="features">
+          <div class="feature">
+            <img src="../../img/feature-1.svg" />
+            <div>
+              <h1>
+                Spend in different
+                <br />currenecies
+              </h1>
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                <br />eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim
+                <br />ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut
+                <br />aliquip ex ea commodo consequat.
+                Duis aute irure dolor in
+                <br />reprehenderit in voluptate velit
+                esse cillum dolore eu fugiat nulla
+                <br />pariatur. Excepteur
+                sint occaecat cupidatat non proident, sunt in
+                <br />culpa qui
+                officia deserunt mollit anim id est laborum."
+              </p>
+            </div>
+          </div>
+          <div class="feature">
+            <div>
+              <h1>
+                Spend in different
+                <br />currenecies
+              </h1>
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                <br />eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim
+                <br />ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut
+                <br />aliquip ex ea commodo consequat.
+                Duis aute irure dolor in
+                <br />reprehenderit in voluptate velit
+                esse cillum dolore eu fugiat nulla
+                <br />pariatur. Excepteur
+                sint occaecat cupidatat non proident, sunt in
+                <br />culpa qui
+                officia deserunt mollit anim id est laborum."
+              </p>
+            </div>
+            <img src="../../img/feature-2.png" />
+          </div>
+        </div>
+      </div>
+      <div class="security-con">
+        <h1 class="security-heading">Security</h1>
+        <div>
+          <p>
+            <span>Superior Security.</span> Secure your money
+            <br />safely with
+            360Pay Three-factor authentication
+            <br />and sleep tight every
+            night.
+          </p>
+          <p>
+            <span>Fraud Loss.</span> We understand your business and
+            <br />personal needs, so We help protect your
+            <br />funds from Cyber
+            criminals.
+          </p>
+        </div>
+      </div>
+      <div class="note">
+        <h1>
+          Your
+          <br />New Bank.
+        </h1>
+      </div>
+      <div class="footer">
+        <div class="footer-child">
+          <img src="../../img/logo.svg" class="app-logo" />
+          <div class="icon-con">
+            <img src="../../img/twitter.svg" />
+            <img src="../../img/medium.svg" />
+            <img src="../../img/facebook.svg" />
+            <img src="../../img/instagram.svg" />
+          </div>
+        </div>
+        <div class="footer-child">
+          <p>
+            Home
+            <br />Pricing
+            <br />Features
+            <br />About us
+            <br />
+          </p>
+        </div>
+        <div class="footer-child">
+          <p>
+            Career
+            <br />Community
+            <br />Privacy Policy
+          </p>
+        </div>
+        <div class="footer-child">
+          <p>
+            Sign In
+            <br />Regsiter
+            <br />Know more
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+    <script>
+  import Header from "./header.vue";
+  export default {
+    components: {
+      appHeader: Header
+    },
+    data() {
+      return {};
+    }
+  };
+    </script>
+
+    <style scoped>
+  .landing-page {
+    background-image: url(../../img/background.png);
+    background-size: cover;
+    width: 100rw;
+    height: 40em;
+  }
+
+  .landing-page-content {
+    margin: 4em;
+    line-height: 4.5em;
+  }
+  .landing-page-content p {
+    font-family: "Montserrat";
+    font-size: 3em;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  form {
+    margin-top: 2em;
+  }
+
+  .know-better-input {
+    width: 18em;
+    height: 2em;
+    border-radius: 2em;
+    border: 0;
+    padding: 0.5em;
+    background-color: #f1f6f9;
+  }
+  .know-better-submit {
+    height: 2.8em;
+    width: 9em;
+    border-radius: 2em;
+    border: 0;
+    padding: 0.5em;
+    background-color: #000000;
+    color: #ffff;
+  }
+
+  .more-info-con {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .more-info-details {
+    width: 70%;
+    padding-top: 4em;
+  }
+  .more-info-details h1 {
+    font-size: 3em;
+    font-family: "Montserrat";
+    font-weight: 100;
+    text-decoration: underline;
+    padding-bottom: 1em;
+  }
+  .more-info-details p {
+    font-family: "Nunito Sans";
+    letter-spacing: 0.1em;
+    line-height: 1.4em;
+    font-weight: 300;
+  }
+  .features-con-heading,
+  .security-heading {
+    font-size: 4em;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+    color: #1249be;
+  }
+  .feature {
+    display: flex;
+  }
+  .feature img {
+    width: 50%;
+    right: 0;
+  }
+  .feature h1 {
+    font-size: 2em;
+    text-decoration: underline;
+    font-family: "Montserrat";
+    line-height: 1.5em;
+    padding-bottom: 1.5em;
+  }
+  .feature p,
+  .security-con p {
+    font-size: 0.8em;
+    font-family: "Open Sans";
+    line-height: 1.5em;
+  }
+  .feature div {
+    padding: 5em;
+    width: 50%;
+  }
+  .security-heading {
+    color: #ffb4c4;
+  }
+  .security-con div {
+    display: flex;
+    justify-content: space-around;
+  }
+  .security-con p {
+    line-height: 2.5em;
+    color: #1249be;
+  }
+  .security-con span {
+    font-weight: 700;
+  }
+  .note {
+    text-align: center;
+    font-size: 8em;
+    color: #585252;
+    font-family: "Open Sans";
+    font-weight: 700;
+    padding: 1em;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
+  }
+  .app-logo {
+    width: 8em;
+    margin-bottom: 3em;
+  }
+  .footer p {
+    line-height: 2em;
+    font-family: "Nunito Sans";
+  }
+  .icon-con img {
+    width: 1.5em;
+    padding-left: 1em;
+  }
+  /* Home Component Mobile Styling*/
+@media (max-width: 990px) {
+  
+  .landing-page {
+    background-image: url(../../img/home-background-mobile.png);
+    background-size: cover;
+    width: 100rw;
+    height: 80em;
+    margin-bottom: 10em;
+  }
+  .landing-page-content {
+    margin-top: 5em;
+    text-align: center;
+  }
+  .more-info-con {
+    background-image: url(../../img/about-illustration-mobile.svg);
+    background-size: cover;
+    height: 40em;
+    width: 100%;
+  }
+
+  .more-info-con img {
+    display: none;
+  }
+  .more-info-details {
+      text-align: justify;
+      padding-left: 2em;
+      color: #716767;
+  }
+  .feature {
+    flex-direction: column
+  }
+  .feature:last-child {
+    flex-direction: column-reverse;
+  }
+  
+  .feature div {
+    font-size: 1.4em;
+    width: auto;
+    text-align: center;
+
+  }
+  .feature img {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+  .security-con div {
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .security-con p {
+    margin-bottom: 3em;
+  }
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-child {
+    margin-bottom: 3em;
+    font-size: 1.5em;
+  }
+  .app-logo {
+    width: 13em;
+  }
+  .icon-con img {
+    width: 2em;
+  }
+}
+
+    </style>
+  </div>
+</template
+>
