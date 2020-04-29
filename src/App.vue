@@ -31,4 +31,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+input, button {
+  font-family: 'Open Sans';
+}
+</style>

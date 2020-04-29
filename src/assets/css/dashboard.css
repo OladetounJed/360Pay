@@ -1,0 +1,17 @@
+:root{
+    --main-color: #ffffff;
+    --header-grey: #716767;
+    --header-text: #1D2433;
+    --body-text: #716767;
+    --pink:  #FFB4C4;
+    --blue: #1249BE;
+    --yellow: #FBD334;
+   
+}
+
+[data-theme="dark"] {
+    --main-color: #262424;
+    --header-grey: #716767;
+    --header-text: #C4C4C4;
+    --body-text: #C4C4C4;
+}

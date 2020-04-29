@@ -1,0 +1,69 @@
+.login-con {
+    color: white;
+  }
+  .login-con h1 {
+    text-align: center;
+    color: #1249be;
+    font-size: 2em;
+    padding: 1em;
+    font-family: "Nunito Sans";
+  }
+  
+  .login-form {
+    width: 30em;
+    margin: auto;
+  }
+  .login-form label {
+    padding: 1em;
+    font-family: "Open Sans";
+  }
+  .login-form input,
+  .login-form button {
+    width: 30em;
+    height: 3em;
+    margin: 0.5em 0 1.5em 0;
+    background-color: transparent;
+    border: 0.1em white solid;
+    border-radius: 3em;
+    padding-left: 1em;
+    font-family: "Nunito Sans";
+    color: white;
+  }
+  .login-form button {
+    width: 10em;
+    display: block;
+    margin: 1.5em auto;
+    background-color: white;
+    padding: 0;
+    color: black;
+  }
+  .switch-con {
+      text-align: center;
+      margin-top: 1em;
+  }
+  .switch-heading {
+      font-family: 'Open Sans';
+      font-size: 1.3em;
+      line-height: 2em;
+      
+  }
+  .signup-con {
+      display: flex;
+      justify-content: center;
+  }
+  .signup-switch-con {
+      width: 4em;
+      height: 2em;
+      border-radius: 2em;
+      border: white 0.05em solid;
+      background-color: white;
+      margin-top: 2em;
+  }
+  .signup-switch {
+      width: 2em;
+      height: 2em;
+      border-radius: 2em;
+      margin-left: 2em;
+      background-color: #262424;
+      cursor: pointer;
+  }
